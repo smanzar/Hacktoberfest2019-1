@@ -33,6 +33,13 @@ $(document).ready(function() {
     $(".navbar-menu").toggleClass("is-active");
 
   });
+  $('.toggler').change(function(){
+    if($(this).is(":checked")) {
+        $('body').addClass("menuitemshow");
+    } else {
+        $('body').removeClass("menuitemshow");
+    }
+});
 
 });
 

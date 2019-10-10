@@ -193,14 +193,16 @@ color: #EC3FD2 ;
   overflow: hidden;
   display: flex;
   align-items: center;
+  padding: 0;
   justify-content: center;
+  background: linear-gradient(to bottom right, #152347, #5b1965);
 }
 
 .menu-wrap .menu > div {
   background: linear-gradient(to bottom right, #152347, #5b1965);
   border-radius: 50%;
-  width: 400vh !important;
-  height: 400vh !important;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex: none;
   align-items: center;
@@ -238,3 +240,4 @@ color: #EC3FD2 ;
     margin-top: 50px !important;
   }
 }
+.menuitemshow{height: 100vh !important; overflow: hidden}
